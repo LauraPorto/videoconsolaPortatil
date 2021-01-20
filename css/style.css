@@ -2,6 +2,10 @@
     background-color: tomato;
     height: 20em;
     width: 40em;
+
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
 }
 
 .top {
@@ -18,3 +22,9 @@
     border-radius: 0.5em 0.5em 2em 2em;
 }
 
+.screen {
+    height: 15em;
+    width: 20em;
+
+    background-color: grey;
+}
