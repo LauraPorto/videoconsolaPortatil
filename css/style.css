@@ -1,0 +1,20 @@
+.ds {
+    background-color: tomato;
+    height: 20em;
+    width: 40em;
+}
+
+.top {
+    border-radius: 2em 2em 0.5em 0.5em;
+}
+
+.middle {
+    background-color: teal;
+    height: 2em;
+    border-radius: 1em;
+}
+
+.bottom {
+    border-radius: 0.5em 0.5em 2em 2em;
+}
+
