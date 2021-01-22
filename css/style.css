@@ -27,23 +27,19 @@
 .grid {
     width: 4.5em;
     height: 2.5em;
-    
+    margin: 2em;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
-    align-items: flex-end;
-
-    margin: 2em;
-
+    align-items: flex-end; 
 }
-
 .punto {
     height: 0.4em;
     width: 0.4em;
 
     border-radius: 50%;
-
     background-color: black;
 }
 
@@ -64,12 +60,10 @@
 .divMIC1 {
     height: 1em;
     width: 0.3em;
-
-    background-color: black;
-
     margin-right: 0.5em;
-
     border-radius: 35%;
+
+    background-color: black; 
 }
 
 .divMIC2 {
@@ -82,37 +76,29 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
 }
 
 .greyLight {
     height: 1.8em;
     width: 0.5em;
-
-    background-color:grey;
-
     margin-right: 0.5em;
-
     border-radius: 25%;
+
+    background-color:grey;    
 }
 
 .greenLight {
     height: 1.8em;
     width: 0.5em;
-
-    background-color:greenyellow;
-
     margin-right: 0.5em;
-
     border-radius: 25%;
+
+    background-color:greenyellow;    
 }
+
 
 .leftSide {
     width: 5em;
-}
-
-.bottom {
-    border-radius: 0.5em 0.5em 2em 2em;
 }
 
 .screen {
@@ -122,4 +108,42 @@
     background-color: grey;
 
     border: 0.5em solid greenyellow;
+}
+
+.bottom {
+    border-radius: 0.5em 0.5em 2em 2em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cross {
+   height: 5.5em;
+   width: 5.5em;
+   margin-bottom: 5em;
+
+   background-image: url(https://images.grosbill.com/console_ds_dsi_xl_bleue-45490-2.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.buttonsStartSelect {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buttonsStartSelect2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonSS {
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 0.5em;
 }
