@@ -1,7 +1,14 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .ds {
     background-color: tomato;
-    height: 20em;
-    width: 40em;
+    height: 18em;
+    width: 38em;
 
     display: flex;
     align-items: center; 
@@ -10,6 +17,34 @@
 
 .top {
     border-radius: 2em 2em 0.5em 0.5em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 4.5em;
+    height: 2.5em;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: flex-end;
+
+    margin: 2em;
+
+}
+
+.punto {
+    height: 0.4em;
+    width: 0.4em;
+
+    border-radius: 50%;
+
+    background-color: black;
 }
 
 .middle {
@@ -18,13 +53,71 @@
     border-radius: 1em;
 }
 
+.divMIC {
+    width: 20em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.divMIC1 {
+    height: 1em;
+    width: 0.3em;
+
+    background-color: black;
+
+    margin-right: 0.5em;
+
+    border-radius: 35%;
+}
+
+.divMIC2 {
+    color:white;
+}
+
+.rightSide {
+    width: 5em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.greyLight {
+    height: 1.8em;
+    width: 0.5em;
+
+    background-color:grey;
+
+    margin-right: 0.5em;
+
+    border-radius: 25%;
+}
+
+.greenLight {
+    height: 1.8em;
+    width: 0.5em;
+
+    background-color:greenyellow;
+
+    margin-right: 0.5em;
+
+    border-radius: 25%;
+}
+
+.leftSide {
+    width: 5em;
+}
+
 .bottom {
     border-radius: 0.5em 0.5em 2em 2em;
 }
 
 .screen {
-    height: 15em;
-    width: 20em;
+    height: 13em;
+    width: 18em;
 
     background-color: grey;
 
