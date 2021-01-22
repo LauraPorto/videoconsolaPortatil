@@ -128,22 +128,70 @@
    background-size: cover;
 }
 
-.buttonsStartSelect {
+
+.buttons {
     display: flex;
     flex-direction: column;
+}
+
+.containerButtons {
+    height: 8em;
+    width: 7em;
+}
+
+.buttonYA {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2.5em;
+}
+
+.buttonX {
+    display: flex;
+    justify-content: center;
+    height: 2.3em;
+}
+
+.buttonB {
+    display: flex;
+    justify-content: center;
+    height: 2.3em;
+}
+
+.XYAB {
+    background-color: white;
+    border-radius: 50%;
+
+    height: 2.5em;
+    width: 2.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.buttonsStartSelect2 {
+
+
+.containerStartSelect {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+}
+.buttonsStartSelect {
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 1.5em;
 }
-
-.buttonSS {
+.startSelect {
     height: 1em;
     width: 1em;
     border-radius: 50%;
     background-color: white;
     margin-right: 0.5em;
 }
+
+
+
+
