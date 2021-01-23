@@ -1,5 +1,5 @@
 body {
-    background-color: tomato;
+    background-color: teal;
 }
 .body {
     display: flex;
@@ -138,6 +138,19 @@ p {
     background-color: grey;
     border: 0.1em solid #090909;
     background: linear-gradient(135deg, rgba(76,76,76,1) 0%, rgba(102,102,102,1) 21%, rgba(89,89,89,1) 43%, rgba(43,43,43,1) 77%, rgba(19,19,19,1) 100%);
+}
+
+.screenBorder:hover {
+    background-image: url(https://ih0.redbubble.net/image.761751290.6739/flat,800x800,075,f.jpg);
+    background-position: center;
+    background-size: cover;
+    transition-duration: 2s;
+}
+#screenBorderTop:hover {
+    background-image: url(https://i.ytimg.com/vi/ec--_AdeO50/sddefault.jpg);
+    background-position: center;
+    background-size: cover;
+    transition-duration: 3s;
 }
 
 
