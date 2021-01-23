@@ -19,6 +19,8 @@ body {
 
     border: 0.1em solid #A49F9F;
 
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%);
+    box-shadow: 0px 0px 10px 3px rgba(87,87,87,1);
 }
 
 .top {
@@ -130,7 +132,9 @@ p {
 
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
+
+    box-shadow: 3px 1px 19px 9px rgba(186,186,186,1);
 }
 .screenBorder {
     height: 13em;
